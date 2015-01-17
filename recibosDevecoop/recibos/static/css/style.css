@@ -1,0 +1,240 @@
+/*=================================
+========================= LAYOUT*/
+
+body.retiro {
+	width: 960px;
+/*	margin: 20px;*/
+/*	padding: 20px;*/
+}
+
+.container {
+	padding: 20px;
+}
+
+
+.logo {
+	clear: both;
+}
+
+#encabezado {
+	margin-bottom: 25px;
+}
+
+#recibo { 
+	padding: 5px;
+	margin-top: 10px;
+	height: 25px;
+}
+
+.recibo-left {
+	float: left;
+	margin-right: 20%;
+}
+
+.recibo-right {
+	float: right;
+}
+
+#datos {
+	height: 200px;
+	margin-bottom: 80px;
+}
+
+#datos-coop {
+	float: left;
+	padding-right: 30px;
+	margin-right: 30px;
+	height: 190px;
+	width: 43%;
+}
+
+#datos-asociado {
+	float: right;
+	height: 190px;
+	width: 50%;
+}
+
+#datos-gcoop div, #datos-asociado div {
+	margin-top: 10px;
+}
+
+#datos-asociado .numero-asociado, #datos-gcoop .nombre-cooperativa {
+	margin-top: 20px;
+}
+
+
+#firma {
+	clear: both;
+}
+
+#firma {
+	clear: both;
+	margin: 20px 50px;
+}
+
+#firma .monto {
+	float: left;
+	width: 40%;
+}
+
+#firma .lugar-fecha {
+	width: 60%;
+	float: right;
+}
+
+#firmas {
+	clear: both;
+	margin-top: 80px;
+	text-align: center;
+	height: 30px;
+	
+}
+
+#monto-fecha {
+	margin: 40px 50px;
+	height: 30px;
+	text-align: center;
+}
+
+.firma-asociado {
+	float: left;
+	width: 40%;
+}
+
+.firma-gcoop {
+	float: right;
+	width: 40%;
+}
+
+.firma-asociado, .firma-gcoop {
+	border-top: 1px dashed #000;
+	padding-top: 10px;
+}
+
+/*=================================
+========================= ESTILO*/
+
+
+body {
+	font-family: 'Gudea', sans-serif;
+	font-size: 16px;
+/*	border: 3px solid #ccc;*/
+}
+
+.contenedor {
+	border: 3px solid #ccc;
+	margin: 10px;
+	padding: 20px;
+}
+
+#original #firma{
+	background: url("original.png") no-repeat scroll 50% 50% transparent;
+}
+
+#duplicado #firma{
+	background: url("duplicado.png") no-repeat scroll 50% 50% transparent;
+}
+
+#recibo {
+	background: #ccc;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+/*#datos-gcoop {
+	border-right: 1px solid #ccc;
+	background: url("logo_background.png") no-repeat scroll 50% 0 transparent;	
+}*/
+
+.retiro .contenedor{
+	border-right: 1px solid #ccc;
+	background: url("logo_background.png") no-repeat scroll center transparent;	
+}
+
+#datos-coop .nombre-cooperativa {
+	font-size: 25px;
+}
+
+#datos-coop label, #datos-asociado label, #firma label {
+	font-weight: bold;
+}
+
+
+
+p.linea-punteada {
+	margin: 25px 0px;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+#firmas {
+	
+	text-align: center;
+	
+	
+}
+
+#monto-fecha {
+	text-align: center;
+}
+
+
+.firma-asociado, .firma-coop {
+	border-top: 1px dashed #000;
+	
+}
+
+
+/* PAGINA PRINCIPAL */
+div.contenido {
+    margin-top: 50px;
+}
+
+table.dataTable {
+    clear:both;
+}
+
+.dataTables_filter {
+    margin-bottom: 1em;
+}
+
+.dataTables_filter label {
+    float: none;
+}
+
+.tabs .active > a, .tabs .active > a:hover {
+    cursor: pointer;
+}
+
+
+
+
+table.table thead .sorting,
+table.table thead .sorting_asc,
+table.table thead .sorting_desc,
+table.table thead .sorting_asc_disabled,
+table.table thead .sorting_desc_disabled {
+    cursor: pointer;
+    *cursor: hand;
+}
+ 
+table.table thead .sorting { background: url('images/sort_both.png') no-repeat center right; }
+table.table thead .sorting_asc { background: url('images/sort_asc.png') no-repeat center right; }
+table.table thead .sorting_desc { background: url('images/sort_desc.png') no-repeat center right; }
+ 
+table.table thead .sorting_asc_disabled { background: url('images/sort_asc_disabled.png') no-repeat center right; }
+table.table thead .sorting_desc_disabled { background: url('images/sort_desc_disabled.png') no-repeat center right; }
+
+.centrar {
+    text-align: center;
+}
+
+#submit_pdf[disabled=disabled] {
+    cursor: default;
+}
+
+#submit_zip[disabled=disabled] {
+    cursor: default;
+}
